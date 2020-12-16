@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primaryLightColor"
+    tools:context=".Animacion">
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="130dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center|top"
+        android:src="@drawable/club"
+        android:layout_marginTop="165dp"
+        ></ImageView>
+    <ImageView
+        android:id="@+id/mesa"
+        android:layout_width="130dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center|center"
+        android:src="@drawable/juego_de_mesa"
+        android:layout_marginTop="90dp"
+        ></ImageView>
+    <ImageView
+        android:id="@+id/dado"
+        android:layout_width="130dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center|bottom"
+        android:src="@drawable/dados"></ImageView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|center_horizontal"
+        android:text="Club de juegos de mesa UC"
+        android:textAlignment="center"
+        android:textSize="46dp"
+        android:paddingTop="20dp"
+        android:textColor="@color/primaryTextColor"
+        android:id="@+id/txtLogo"
+        />
+
+</FrameLayout>

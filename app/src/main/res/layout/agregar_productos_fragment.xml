@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.agregar.agregarProductos">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Agregar usuarios" />
+        <EditText
+            android:id="@+id/campIdProducto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Codigo del producto"
+            android:inputType="numberDecimal"
+            android:textColor="#7ED4DF" />
+        <EditText
+            android:id="@+id/campNombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Nombre"
+            android:inputType="textPersonName"
+            android:textColor="#7ED4DF" />
+        <EditText
+            android:id="@+id/campDescripcion"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:ems="10"
+            android:hint="Descripcion del producto"
+            android:inputType="textMultiLine"
+            android:textColor="#7ED4DF" />
+
+        <EditText
+            android:id="@+id/campTipo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Tipo de producto"
+            android:inputType="textPersonName"
+            android:textColor="#7ED4DF" />
+        <EditText
+            android:id="@+id/campPrecio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Precio del producto"
+            android:inputType="number"
+            android:textColor="#7ED4DF" />
+        <EditText
+            android:id="@+id/campImagen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Url de la Imagen"
+            android:inputType="textMultiLine"
+            android:textColor="#7ED4DF" />
+        <Button
+            android:id="@+id/btnGuardar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Guardar" />
+    </LinearLayout>
+
+</FrameLayout>

@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Ubaldo_EvalParticial</string>
+    <string name="navigation_drawer_open">Abrir navegacion</string>
+    <string name="navigation_drawer_close">Cerrar navegacion</string>
+    <string name="nav_header_title">Club de juegos de mesa UC</string>
+    <string name="nav_header_subtitle">76927894@continental.edu.pe</string>
+    <string name="nav_header_desc">Navegacion de cabecera</string>
+    <string name="action_settings">Configuracion</string>
+
+    <string name="menu_agregar">Agregar</string>
+    <string name="menu_vendido">Mas vendidos</string>
+    <string name="menu_buscar">Buscar</string>
+    <string name="menu_lista">Lista de todos los productos</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

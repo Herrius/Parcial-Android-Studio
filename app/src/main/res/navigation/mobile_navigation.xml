@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_vendido">
+
+    <fragment
+        android:id="@+id/nav_agregar"
+        android:name="ubaldo_EvalPar.org.ui.agregar.agregarProductos"
+        android:label="@string/menu_agregar"
+        tools:layout="@layout/agregar_productos_fragment" />
+
+    <fragment
+        android:id="@+id/nav_buscar"
+        android:name="ubaldo_EvalPar.org.ui.buscar.buscar"
+        android:label="@string/menu_buscar"
+        tools:layout="@layout/buscar_fragment" />
+
+    <fragment
+        android:id="@+id/nav_vendido"
+        android:name="ubaldo_EvalPar.org.ui.top.top"
+        android:label="@string/menu_vendido"
+        tools:layout="@layout/top_fragment" />
+
+    <fragment
+        android:id="@+id/nav_lista"
+        android:name="ubaldo_EvalPar.org.ui.listar.listar"
+        android:label="@string/menu_lista"
+        tools:layout="@layout/listar_fragment" />
+</navigation>
